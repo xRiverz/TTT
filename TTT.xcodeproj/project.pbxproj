@@ -13,6 +13,11 @@
 		847E5FA9275E947E003755EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E5FA7275E947E003755EB /* Main.storyboard */; };
 		847E5FAB275E947F003755EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847E5FAA275E947F003755EB /* Assets.xcassets */; };
 		847E5FAE275E947F003755EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E5FAC275E947F003755EB /* LaunchScreen.storyboard */; };
+		847E5FB8275E9C35003755EB /* playO.png in Resources */ = {isa = PBXBuildFile; fileRef = 847E5FB5275E9C34003755EB /* playO.png */; };
+		847E5FB9275E9C35003755EB /* 1Pzpe.png in Resources */ = {isa = PBXBuildFile; fileRef = 847E5FB6275E9C35003755EB /* 1Pzpe.png */; };
+		847E5FBA275E9C35003755EB /* 99-992857_inner-page-closing-comments-tic-tac-toe-x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847E5FB7275E9C35003755EB /* 99-992857_inner-page-closing-comments-tic-tac-toe-x.png */; };
+		847E5FBD275EA615003755EB /* icons8-x-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 847E5FBB275EA615003755EB /* icons8-x-100.png */; };
+		847E5FBE275EA615003755EB /* icons8-o-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 847E5FBC275EA615003755EB /* icons8-o-100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		847E5FAA275E947F003755EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847E5FAD275E947F003755EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847E5FAF275E947F003755EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847E5FB5275E9C34003755EB /* playO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playO.png; path = ../../playO.png; sourceTree = "<group>"; };
+		847E5FB6275E9C35003755EB /* 1Pzpe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1Pzpe.png; path = ../../1Pzpe.png; sourceTree = "<group>"; };
+		847E5FB7275E9C35003755EB /* 99-992857_inner-page-closing-comments-tic-tac-toe-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "99-992857_inner-page-closing-comments-tic-tac-toe-x.png"; path = "../../99-992857_inner-page-closing-comments-tic-tac-toe-x.png"; sourceTree = "<group>"; };
+		847E5FBB275EA615003755EB /* icons8-x-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-x-100.png"; path = "../../icons8-x-100.png"; sourceTree = "<group>"; };
+		847E5FBC275EA615003755EB /* icons8-o-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-o-100.png"; path = "../../icons8-o-100.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				847E5FAA275E947F003755EB /* Assets.xcassets */,
 				847E5FAC275E947F003755EB /* LaunchScreen.storyboard */,
 				847E5FAF275E947F003755EB /* Info.plist */,
+				847E5FB6275E9C35003755EB /* 1Pzpe.png */,
+				847E5FB7275E9C35003755EB /* 99-992857_inner-page-closing-comments-tic-tac-toe-x.png */,
+				847E5FB5275E9C34003755EB /* playO.png */,
+				847E5FBC275EA615003755EB /* icons8-o-100.png */,
+				847E5FBB275EA615003755EB /* icons8-x-100.png */,
 			);
 			path = TTT;
 			sourceTree = "<group>";
@@ -126,8 +141,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				847E5FAE275E947F003755EB /* LaunchScreen.storyboard in Resources */,
+				847E5FBE275EA615003755EB /* icons8-o-100.png in Resources */,
+				847E5FBA275E9C35003755EB /* 99-992857_inner-page-closing-comments-tic-tac-toe-x.png in Resources */,
+				847E5FB8275E9C35003755EB /* playO.png in Resources */,
 				847E5FAB275E947F003755EB /* Assets.xcassets in Resources */,
+				847E5FBD275EA615003755EB /* icons8-x-100.png in Resources */,
 				847E5FA9275E947E003755EB /* Main.storyboard in Resources */,
+				847E5FB9275E9C35003755EB /* 1Pzpe.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +316,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
